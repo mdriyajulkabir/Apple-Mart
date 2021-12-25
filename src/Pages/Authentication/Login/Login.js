@@ -8,7 +8,7 @@ const Login = () => {
         class="btn btn-outline-primary me-4"
         data-bs-toggle="modal"
         data-bs-target="#loginModal">
-          <span className='fa fa-sign-in me-1'></span>
+        <span className="fa fa-sign-in me-1"></span>
         Login
       </button>
 
@@ -22,7 +22,6 @@ const Login = () => {
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title mx-auto" id="loginModalLabel">
-                
                 Log In
               </h5>
               <button
@@ -33,7 +32,9 @@ const Login = () => {
             </div>
             <div class="modal-body">
               <button className="btn btn-primary w-100 mb-2">
-                <span><i class="fab fa-google me-2"></i></span>
+                <span>
+                  <i class="fab fa-google me-2"></i>
+                </span>
                 Sign in with Google
               </button>
               <form>

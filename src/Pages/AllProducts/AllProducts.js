@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import Footer from "../Home/Footer/Footer";
-import Header from "../Home/Header/Header";
 
 const AllProducts = () => {
   const [phones, setPhones] = useState([]);
@@ -12,7 +10,6 @@ const AllProducts = () => {
   }, []);
   return (
     <>
-      <Header />
       <div className="container">
         <div className="row w-100">
           {phones.map((phone) => (
@@ -33,7 +30,13 @@ const AllProducts = () => {
                     <p className="lead">৳{phone.price}</p>
                   </div>
                   <div>
-                    <NavLink to={``}></NavLink>
+                    <div className="text-center">
+                      <NavLink
+                        to={`/product/${phone.id}`}
+                        className="btn btn-primary px-3 py-2 rounded-pill w-75">
+                        Details
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -41,7 +44,6 @@ const AllProducts = () => {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 };

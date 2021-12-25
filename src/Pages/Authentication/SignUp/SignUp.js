@@ -8,7 +8,7 @@ const SignUp = () => {
         class="btn btn-outline-primary me-4 "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal">
-          <span className='fa fa-user-plus me-1'></span>
+        <span className="fa fa-user-plus me-1"></span>
         Register
       </button>
 
@@ -22,7 +22,6 @@ const SignUp = () => {
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title mx-auto" id="exampleModalLabel">
-                
                 Register
               </h5>
               <button
@@ -33,7 +32,9 @@ const SignUp = () => {
             </div>
             <div class="modal-body">
               <button className="btn btn-primary w-100 mb-2">
-                <span><i class="fab fa-google me-2"></i></span>
+                <span>
+                  <i class="fab fa-google me-2"></i>
+                </span>
                 Sign in with Google
               </button>
               <form>
@@ -41,12 +42,7 @@ const SignUp = () => {
                   <label htmlFor="exampleInput" class="form-label">
                     User Name
                   </label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="exampleInput"
-                  
-                  />
+                  <input type="text" class="form-control" id="exampleInput" />
                 </div>
                 <div class="mb-3">
                   <label htmlFor="exampleInputEmail1" class="form-label">
@@ -85,4 +81,3 @@ const SignUp = () => {
 };
 
 export default SignUp;
-
