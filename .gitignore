@@ -4,6 +4,20 @@
 /node_modules
 /.pnp
 .pnp.js
+data.js
+IPhone.js
+Footer.js
+Products.js
+SpecialDeals.js
+BundleOffer.js
+Benifits.js
+Banner.js
+Details.js
+Contact.js
+SignUs.js
+Login.js
+AllProducts.js
+AboutUs.js
 
 # testing
 /coverage

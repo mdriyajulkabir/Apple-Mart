@@ -1,0 +1,19 @@
+/* card */
+.card{
+    transition: all 0.5s ease;
+  }
+  .card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: grabbing;
+  }
+
+.productHeader{
+  font-size: 56px;
+}
+
+@media screen and  (max-width: 450px) {
+  .productHeader{
+    font-size: 35px;
+  }
+}

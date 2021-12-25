@@ -1,0 +1,107 @@
+ [
+  {
+    "id": 1,
+    "title": "iPhone 11",
+    "price": "87,999",
+    "img": "https://www.gizmochina.com/wp-content/uploads/2019/09/Apple-iPhone-11-1.jpg",
+    "desc": "Apple iPhone 11 comes with 6.1 inches Liquid Retina IPS LCD screen. It has a classical Apple iPhone notch design. The back camera is of Dual 12+12 MP with powerful image processing capability and Ultra HD 4K video recording. The front camera is of Dual 12 MP and SL 3D camera. Apple iPhone 11 comes with 3110 mAh battery with 18W fast charging solution. It has 4 GB RAM, up to 2.65 GHz hexa-core CPU and Apple GPU. It is powered by Apple A13 Bionic (7 nm+) chipset. The device comes with 64, 128 or 256 GB internal storage. There is no fingerprint sensor in this device."
+  },
+  {
+    "id": 9,
+    "title": "iPhone 12 Pro-Max",
+    "price": "161,999",
+    "img": "https://www.bdprice.com.bd/wp-content/uploads/2020/07/Apple-iPhone-12-Pro-Max.jpg",
+    "desc": "Apple iPhone 12 Pro Max comes with a 6.7 inches Super Retina XDR OLED screen which is one of its main specialties. It has a classical Apple iPhone notch design. The back camera is of quad 12+12+12 MP + TOF 3D with powerful image processing capability and Ultra HD 4K video recording. The front one is of Dual 12 MP and SL 3D camera. Apple iPhone 12 Pro Max comes with Li-ion battery with 18W fast charging solution. It has 6 GB RAM, Hexa-core CPU and Apple GPU. It is powered by a 5 nm Apple A14 Bionic chipset. The device comes with 128, 256 or 512 GB internal storage."
+  },
+  {
+    "id": 15,
+    "title": "iPhone 13 Pro",
+    "price": "147,999",
+    "img": "https://www.mobiledokan.co/wp-content/uploads/2020/12/Apple-iPhone-13-Pro-Graphite.jpg",
+    "desc": "Apple iPhone 13 Pro will be launched in September 2021. The iPhone 13 Pro launched with the model number A2638, A2483, A2636, A2639, A2640, iPhone14,2. Firstly, Its dimensional measure is 146.7 x 71.5 x 7.7 mm and the weight is 204 grams. Secondly, the display of the iPhone 13 Pro is a 6.1-inch Super Retina XDR OLED panel with 1170 x 2532 pixels resolution. The display is protected from Scratch-resistant ceramic glass, oleophobic coating. Thirdly and most importantly, It is powered by Apple A15 Bionic and runs with iOS 15. Moreover, it has up to a Hexa-core (2×3.22 GHz + 4xX.X GHz) CPU."
+  },
+  {
+    "id": 3,
+    "title": "iPhone 12 Mini",
+    "price": "109,999",
+    "img": "https://www.mobiledokan.co/wp-content/uploads/2020/10/Apple-iPhone-12-Mini-Green.jpg",
+    "desc": "The Apple iPhone 12 Mini phone body dimensions are 131.5 x 64.2 x 7.4 mm (5.18 x 2.53 x 0.29 in). It is powered by the Android 10 platform with Apple A14 Bionic (5 nm) chipset. The primary camera is 12 MP, 12 MP (main) that supports autofocus. And the secondary camera is 12 MP (secondary). It has a Face ID, accelerometer, gyro, proximity, compass, barometer sensors."
+  },
+  {
+    "id": 4,
+    "title": "iPhone 10",
+    "price": "83,999",
+    "img": "https://mobiledokan.com.bd/wp-content/uploads/2020/10/Apple-iPhone-X.jpg.webp",
+    "desc": "The Apple iPhone X (iPhone 10) has a dual-camera setup on the back. The primary camera is a 12 MP module that is reportedly 60% faster and 30% more efficient, the higher f/1.8 aperture that should let 50% more light, the new six-element camera lenses, and optical image stabilization.This sensor has a full focal length, which is 28mm, with the size of 1/3 inch and Phase Detection Auto Focus. And the secondary camera is a telephoto lens with a 2x optical zoom. Users can also choose between the h.264 and h.265 codec."
+  },
+  {
+    "id": 2,
+    "title": "iPhone 11 Pro-Max",
+    "price": "129,999",
+    "img": "https://www.mobiledokan.com/wp-content/uploads/2019/09/Apple-iPhone-11-Pro-Max.jpg",
+    "desc": "Apple iPhone 11 Pro Max comes with a 6.5 inches Super Retina XDR OLED screen which is one of its main specialties. It has a classical Apple iPhone notch design. The back camera is of Triple 12+12+12 MP with powerful image processing capability and Ultra HD 4K video recording. The front camera is of Dual 12 MP and SL 3D camera. Apple iPhone 11 Pro Max comes with 3969 mAh battery with 18W fast charging solution. It has 4 GB RAM, up to 2.65 GHz Hexa-core CPU and Apple GPU. It is powered by Apple A13 Bionic (7 nm+) chipset. The device comes with 64, 256 or 512 GB internal storage. There is no fingerprint sensor in this phone."
+  },
+  {
+    "id": 5,
+    "title": "Apple iPhone XS",
+    "price": "115,000",
+    "img": "https://www.mobiledokan.com/wp-content/uploads/2019/03/Apple-iPhone-XS-Grey.jpg",
+    "desc": "If you are looking for something between XR and XS Max, Apple iPhone XS is the choice. It has features similar to XS Max. But the battery performance, display size and quality are a little lower. Performance, body material and other features are same as iPhone XS Max.If you don’t want that extra large 6.5-inch display, can be satisfied with slightly lower battery backup and interested in the lower-priced option, iPhone XS is surely the better option for you."
+  },
+  {
+    "id": 6,
+    "title": "iPhone SE (2020) ",
+    "price": "57,990 ",
+    "img": "https://www.mobiledokan.com/wp-content/uploads/2020/04/Apple-iphone-SE-2020-white-new.jpg",
+    "desc": "Apple iPhone SE 2020 comes with 4.7 inches 750 x 1334 pixels Retina IPS LCD screen. It has a classic Apple iPhone design. The back camera is of single 12 MP with PDAF, dual-LED flash, HDR, OIS etc. and Ultra HD 4K video recording. The front camera is of 7 MP. iPhone SE 2020 comes with 1821 mAh battery. It has 3 GB RAM and up to 2.65 GHz hexa-core CPU and Apple GPU (4-core graphics). It is powered by Apple A13 Bionic (7 nm+) chipset. The device comes with 64, 128 or 256 GB internal storage. There is a front-mounted fingerprint sensor in this device."
+  },
+  {
+    "id": 7,
+    "title": "iPhone 13 mini",
+    "price": "103,999",
+    "img": "https://www.mobiledokan.co/wp-content/uploads/2021/09/Apple-iPhone-13-mini-Blue.jpg",
+    "desc": "Apple iPhone 13 mini will be launched in 2021, September. The iPhone 13 mini was launched with the model numbers A2399, A2176, A2398, 2400, A2630. Firstly, Its dimensional measure is 131.5 x 64.2 x 7.7 mm and the weight is 141 grams. Secondly, the display of the iPhone 13 mini is a 5.4-inch Super Retina XDR OLED panel with 1080 x 2340 pixels resolution. The display is protecting from Scratch-resistant ceramic glass, oleophobic coating glass, oleophobic coating. Thirdly and most importantly, It is powered by Apple A15 Bionic and running with iOS 15. Moreover, it has up to a Hexa-core (2×3.22 GHz + 4xX.X GHz) CPU."
+  },
+  {
+    "id": 8,
+    "title": "Apple iPhone 8",
+    "price": "64,999",
+    "img": "https://www.mobiledokan.com/wp-content/uploads/2019/03/Apple-iPhone-8-Black.jpg",
+    "desc": "Apple iPhone 8 is coming with a front and back glass design for the first time in an iPhone. Now you won’t feel any cheap plastic or cold metal while holding your iPhone in hand. Rather, you will feel elegant and smooth glass. Another fine improvement is its camera. Both front and back camera quality has been improved and they are arguably the best smartphone cameras of 2016. Better sensor, new color filter, and deeper pixels are some of the new adding in its camera. The True Tone technology ensures a brilliant viewing experience. The while balance of your display will adjust automatically to the environment around you to give you a clear and comfortable experience. Not to mention that the color accuracy is also tremendous in iPhone 8."
+  },
+  {
+    "id": 10,
+    "title": "iPhone 6s Plus",
+    "price": "44,999",
+    "img": "https://www.mobiledokan.com/wp-content/uploads/2019/03/Apple-iPhone-6S-Plus-Gold.jpeg",
+    "desc": "Apple iPhone 6S Plus has all the qualities and features of iPhone 6S. Because of the bigger size of the display and higher resolution, it is called 6S “Plus.” In this smart gadget, Apple used a 5.5 inch Full HD retina display in iPhone 6S plus. As display consumes the most of the battery, the battery capacity is also higher than 6S. Additionally, both front and back camera has optical image stabilization that stabilizes the picture in case if the hand shakes a little in the last moment of a beautiful capture."
+  },
+  {
+    "id": 11,
+    "title": "Apple iPhone XR",
+    "price": "98,000",
+    "img": "https://www.mobiledokan.com/wp-content/uploads/2020/04/Apple-iPhone-XR-new.jpg",
+    "desc": "Apple decided to release three different smartphones in 2018, Apple iPhone XR, iPhone XS and iPhone XS Max. iPhone XR is the lower priced smartphone among the three. Apple concentrated mainly in a more advanced “Liquid Retina” display, faster face unlock, faster performance through the all-new Apple A12 Bionic chipset and better camera in this device. The Liquid Retina LCD will provide vivid and distinguishing colors, sharp and clear viewing experience which is best in the industry according to Apple. The body is water and dust resistant, the back is made of fine quality glass and the frames with strong aerospace-grade aluminum. Portrait mode, smart HDR, depth control, the wide-angle lens will help you to capture beautiful photos through both front and the back cameras."
+  },
+  {
+    "id": 12,
+    "title": "Oppo Find N",
+    "price": "110,000",
+    "img": "https://www.mobiledokan.co/wp-content/uploads/2021/12/Oppo-Find-N.jpg",
+    "desc": "Oppo Find N 5G will be launched in 2021, December. The Find N launched with model number PEUM00. Firstly, Its dimensional measure is Unfolded: 132.6 x 140.2 x 8.0 mm, Folded: 132.6 x 73 x 15.9 mm and the weight is 275 grams. Secondly, the display of Find N 5G is a 7.1-inch Foldable LTPO AMOLED panel with 1792 x 1920 pixels resolution. The display is protecting from the unknown. Thirdly and most importantly, It is powered by the Qualcomm SM8350 Snapdragon 888 5G (5 nm) and runs with Android 11. Moreover, it has up to an Octa-core (1×2.84 GHz Kryo 680 & 3×2.42 GHz Kryo 680 & 4×1.80 GHz Kryo 680) CPU."
+  },
+  {
+    "id": 13,
+    "title": "Apple iPhone",
+    "price": "12,379",
+    "img": "https://drop.ndtv.com/TECH/product_database/images/530201361437PM_635_Apple_iPhone_first_gen.png?downsize=*:180",
+    "desc": "Apple iPhone mobile was launched in June 2007. The phone comes with a 3.50-inch display with a resolution of 320x480 pixels. Apple iPhone is powered by a 412 MHz one-core processor. It comes with 128MB of RAM. As far as the cameras are concerned, the Apple iPhone on the rear packs 2-megapixel camera.Apple iPhone is based on iOS 3 and packs 4GB of inbuilt storage. The Apple iPhone is a single SIM (GSM) mobile that accepts a Regular-SIM card. The Apple iPhone measures 115.00 x 61.00 x 11.60mm (height x width x thickness) .Connectivity options on the Apple iPhone include Wi-Fi. Sensors on the phone include accelerometer, ambient light sensor, barometer, gyroscope, proximity sensor, and compass/ magnetometer."
+  },
+  {
+    "id": 14,
+    "title": "Xiaomi Civi",
+    "price": "40,000",
+    "img": "https://www.mobiledokan.co/wp-content/uploads/2021/09/Xiaomi-Civi-Pink.jpg",
+    "desc": "Xiaomi Civi will be launched in September 2021. The Xiaomi Civi was launched with a model number unknown. Firstly, Its dimensional measure is 7 mm and the weight is 166 grams. Secondly, the display of Civi is a 6.55-inch AMOLED panel with 1080 x 2400 pixels resolution. The display is protected with Corning Gorilla Glass 3. Thirdly and most importantly, It is powered by the Qualcomm SM7325 Snapdragon 778G 5G (6 nm) and running with Android 11.Moreover, it has up to an Octa-core (4×2.4 GHz Kryo 670 & 4×1.8 GHz Kryo 670) CPU."
+  }
+]
