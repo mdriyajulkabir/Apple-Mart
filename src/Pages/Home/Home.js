@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className='maindiv'>
             <Header/>
-            {/* <Banner/> */}
+            <Banner/>
             {/* <IPhone/> */}
             {/* <Products/> */}
             {/* <Benifits/> */}
