@@ -8,7 +8,7 @@ const Header = () => {
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-  <a class="navbar-brand" href="#s">Navbar</a>
+  <a class="navbar-brand" href="#s">Apple Mart</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,7 +33,7 @@ const Header = () => {
       
     <Login/>
     <SignUp/>
-    <NavLink to='/cart' className='fa fa-shopping-cart '>Cart 0</NavLink>
+    <NavLink to='/cart' className='fa fa-shopping-cart btn btn-outline-primary py-2'>Cart 0</NavLink>
     </div>
   </div>
 </nav>

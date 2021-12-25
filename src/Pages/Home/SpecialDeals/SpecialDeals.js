@@ -38,8 +38,8 @@ const SpecialDeals = () => {
         <div className="text-center  py-3">
           <h5>
             Our Specialists can help you shop -- online or in store. <br /> <br />
-            <a href="s" style={{ textDecoration: "none" }}>
-              Connet with an iPhone Specialist >
+            <a href="#SpecialDeal" style={{ textDecoration: "none" }}>
+              Connet with an iPhone Specialist &gt;
             </a>
           </h5>
         </div>

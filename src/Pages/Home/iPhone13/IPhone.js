@@ -9,7 +9,7 @@ const iPhone = () => {
         <p>From $41.562/mo. for 24 mo. or $999 before trade-in</p>
         <div className="pb-5">
           <button className="btn btn-primary rounded-pill me-3">Buy</button>
-          <a href="s" className="ms-3" style={{textDecoration: 'none'}}>Learn more ></a>
+          <a href="#s" className="ms-3" style={{textDecoration: 'none'}}>Learn more &gt;</a>
         </div>
         <div >
           <img src={phone} className="img-fluid" alt="" />
