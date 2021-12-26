@@ -8,7 +8,7 @@ const Details = () => {
   const { id } = useParams();
   const [phones, setPhone] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/product")
+    fetch("https://mighty-coast-57668.herokuapp.com/product")
       .then((res) => res.json())
       .then((data) => setPhone(data));
   }, []);
