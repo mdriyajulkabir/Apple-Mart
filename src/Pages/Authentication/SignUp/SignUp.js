@@ -2,7 +2,7 @@ import React from "react";
 import useFirebase from "../../../Hooks/useFirebase";
 
 const SignUp = () => {
-  const { user, singInUsingGoogle} = useFirebase();
+  const { user, singInUsingGoogle } = useFirebase();
   return (
     <>
       {!user?.email && (
@@ -44,7 +44,13 @@ const SignUp = () => {
                   <label htmlFor="exampleInput" class="form-label">
                     User Name
                   </label>
-                  <input type="text" class="form-control" id="exampleInput" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInput"
+                    defaultValue="Sorry! only google sign in available"
+                    disabled
+                  />
                 </div>
                 <div class="mb-3">
                   <label htmlFor="exampleInputEmail1" class="form-label">
@@ -55,6 +61,8 @@ const SignUp = () => {
                     class="form-control"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
+                    defaultValue="Sorry! only google sign in available"
+                    disabled
                   />
                   <div id="emailHelp" class="form-text">
                     We'll never share your email with anyone else.
@@ -68,6 +76,7 @@ const SignUp = () => {
                     type="password"
                     class="form-control"
                     id="exampleInputPassword1"
+                    disabled
                   />
                 </div>
                 <button type="submit" class="btn btn-outline-primary w-100">

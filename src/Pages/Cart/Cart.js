@@ -3,7 +3,6 @@ import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import { deleteItem } from "../../redux/action";
-// import { deleteItem } from '../../redux/action';
 
 const Cart = () => {
   const state = useSelector((state) => state.addItem);

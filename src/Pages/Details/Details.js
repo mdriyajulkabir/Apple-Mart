@@ -8,7 +8,7 @@ const Details = () => {
   const { id } = useParams();
   const [phones, setPhone] = useState([]);
   useEffect(() => {
-    fetch("/output.json")
+    fetch("http://localhost:5000/product")
       .then((res) => res.json())
       .then((data) => setPhone(data));
   }, []);

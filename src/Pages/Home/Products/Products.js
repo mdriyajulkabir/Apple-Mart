@@ -4,7 +4,7 @@ import "./Product.css";
 const Products = () => {
   const [phones, setPhones] = useState([]);
   useEffect(() => {
-    fetch("./output.json")
+    fetch("http://localhost:5000/product")
       .then((res) => res.json())
       .then((data) => setPhones(data));
   }, []);
