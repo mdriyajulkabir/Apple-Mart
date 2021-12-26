@@ -1,16 +1,27 @@
 import React from "react";
+import useFirebase from "../../../Hooks/useFirebase";
 
 const Login = () => {
+  const { user, singInUsingGoogle, logOut } = useFirebase();
   return (
     <>
-      <button
-        type="button"
-        class="btn btn-outline-primary me-4"
-        data-bs-toggle="modal"
-        data-bs-target="#loginModal">
-        <span className="fa fa-sign-in me-1"></span>
-        Login
-      </button>
+      {user?.email ? (
+        <button
+          onClick={logOut}
+          type="button"
+          className="btn btn-outline-primary me-2"
+          >
+          <span className="fa fa-sign-in me-1"></span> Logout {user.displayName}
+        </button>
+      ) : (
+        <button
+          type="button"
+          className="btn btn-outline-primary me-2"
+          data-bs-toggle="modal"
+          data-bs-target="#loginModal">
+          <span className="fa fa-sign-in me-1"></span> Login
+        </button>
+      )}
 
       <div
         class="modal fade"
@@ -31,11 +42,10 @@ const Login = () => {
                 aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <button className="btn btn-primary w-100 mb-2">
-                <span>
-                  <i class="fab fa-google me-2"></i>
-                </span>
-                Sign in with Google
+              <button
+                onClick={()=>singInUsingGoogle()}
+                className="btn btn-primary w-100 mb-4">
+                <span className="fab fa-google me-2"></span> Sign in with Google
               </button>
               <form>
                 <div class="mb-3">
@@ -47,31 +57,25 @@ const Login = () => {
                     class="form-control"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
+                    defaultValue='Sorry! only google sign in available'
+                    disabled
                   />
                   <div id="emailHelp" class="form-text">
                     We'll never share your email with anyone else.
                   </div>
                 </div>
                 <div class="mb-3">
-                  <label htmlFor="exampleInputPassword1" class="form-label">
+                  <label htmlFor="exampleInputPassword1" class="form-label" >
                     Password
                   </label>
                   <input
                     type="password"
                     class="form-control"
                     id="exampleInputPassword1"
+                    disabled
                   />
                 </div>
-                <div class="mb-3 form-check">
-                  <input
-                    type="checkbox"
-                    class="form-check-input"
-                    id="exampleCheck1"
-                  />
-                  <label class="form-check-label" htmlFor="exampleCheck1">
-                    Check me out
-                  </label>
-                </div>
+                
                 <button type="submit" class="btn btn-outline-primary w-100">
                   Submit
                 </button>

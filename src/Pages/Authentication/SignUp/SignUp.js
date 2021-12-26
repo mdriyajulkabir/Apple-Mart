@@ -1,27 +1,30 @@
 import React from "react";
+import useFirebase from "../../../Hooks/useFirebase";
 
 const SignUp = () => {
+  const { user, singInUsingGoogle} = useFirebase();
   return (
     <>
-      <button
-        type="button"
-        class="btn btn-outline-primary me-4 "
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal">
-        <span className="fa fa-user-plus me-1"></span>
-        Register
-      </button>
+      {!user?.email && (
+        <button
+          type="button"
+          className="btn btn-outline-primary me-2"
+          data-bs-toggle="modal"
+          data-bs-target="#signinModal">
+          <span className="fa fa-sign-in me-1"></span> Register
+        </button>
+      )}
 
       <div
         class="modal fade"
-        id="exampleModal"
+        id="signinModal"
         tabIndex="-1"
-        aria-labelledby="exampleModalLabel"
+        aria-labelledby="signinModalLabel"
         aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title mx-auto" id="exampleModalLabel">
+              <h5 class="modal-title mx-auto" id="signinModalLabel">
                 Register
               </h5>
               <button
@@ -31,11 +34,10 @@ const SignUp = () => {
                 aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <button className="btn btn-primary w-100 mb-2">
-                <span>
-                  <i class="fab fa-google me-2"></i>
-                </span>
-                Sign in with Google
+              <button
+                onClick={() => singInUsingGoogle()}
+                className="btn btn-primary w-100 mb-4">
+                <span className="fab fa-google me-2"></span> Sign in with Google
               </button>
               <form>
                 <div class="mb-3">

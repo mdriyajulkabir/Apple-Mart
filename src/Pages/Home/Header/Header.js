@@ -1,11 +1,13 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+import useFirebase from "../../../Hooks/useFirebase";
 import Login from "../../Authentication/Login/Login";
 import SignUp from "../../Authentication/SignUp/SignUp";
 import "./Header.css";
 const Header = () => {
   const state = useSelector((state) => state.addItem);
+  const {user} = useFirebase()
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -63,8 +65,8 @@ const Header = () => {
               </li>
             </ul>
 
-            <Login />
-            <SignUp />
+            {user?.email ?<><Login/> <SignUp/></> :<> <Login />
+            <SignUp /> </>}
             <NavLink
               to="/cart"
               className="fa fa-shopping-cart btn btn-outline-primary py-2">
