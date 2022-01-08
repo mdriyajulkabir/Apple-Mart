@@ -1,6 +1,7 @@
 @media screen and (min-width: 600px) {
   .bundleContainer {
-    padding-left: 50px;
+    padding-left: 70px;
     padding-right: 40px;
+    padding-bottom: 40px;
   }
 }

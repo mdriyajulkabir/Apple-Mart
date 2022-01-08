@@ -1,0 +1,12 @@
+.apple-card-text{
+    color: linear-gradient(to right, #f06844, #ee4c54, #d25ed4, #9c6ca6, #6583c1);
+    background: -webkit-linear-gradient( #f06844, #ee4c54, #d25ed4, #9c6ca6, #6583c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.apple-phone-img{
+    margin-top: 60px;
+}
+.apple-card{
+    margin-top: 30px;
+}

@@ -6,6 +6,8 @@ import Products from "./Products/Products";
 import SpecialDeals from "./SpecialDeals/SpecialDeals";
 import IPhone from "./iPhone13/IPhone";
 import BundleOffer from "./BundleOffer/BundleOffer";
+import SaveWithAppleCard from "./SaveWithAppleCard/SaveWithAppleCard";
+import FitnessAndGiftcard from "./FitnessAndGiftcard/FitnessAndGiftcard";
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
       <Benifits />
       <SpecialDeals />
       <BundleOffer />
+      <SaveWithAppleCard/>
+      <FitnessAndGiftcard/>
     </div>
   );
 };

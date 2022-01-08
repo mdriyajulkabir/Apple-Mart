@@ -3591,6 +3591,11 @@
   "resolved" "https://registry.npmjs.org/css.escape/-/css.escape-1.5.1.tgz"
   "version" "1.5.1"
 
+"css.gg@^2.0.0":
+  "integrity" "sha512-8qO59kSXLbewo7xaUM4eC8328MTdGmb8atpmw6PRzeDGsZrCkAVjJzKeFDIntagl1/aCee+NG1OQtIvWAjgG/A=="
+  "resolved" "https://registry.npmjs.org/css.gg/-/css.gg-2.0.0.tgz"
+  "version" "2.0.0"
+
 "css@^3.0.0":
   "integrity" "sha512-DG9pFfwOrzc+hawpmqX/dHYHJG+Bsdb0klhyi1sDneOgGOXy9wQIC8hzyVp1e4NRYDBdxcylvywPkkXCHAzTyQ=="
   "resolved" "https://registry.npmjs.org/css/-/css-3.0.0.tgz"
